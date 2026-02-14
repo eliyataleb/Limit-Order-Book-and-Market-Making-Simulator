@@ -32,6 +32,10 @@ scripts/
   run_sim.py
   run_experiments.py
 results/
+  A_baseline/
+  B_buy_imbalance/
+  C_informed_flow/
+  summary_table.csv
 ```
 
 ## Quick Start
