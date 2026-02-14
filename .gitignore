@@ -22,15 +22,12 @@ results/
 outputs/
 logs/
 
-# CSV outputs (generated metrics, trades, etc.)
-*.csv
+# Generated artifacts ONLY inside results/outputs
+results/**/*.csv
+outputs/**/*.csv
+results/**/*.{png,jpg,jpeg,svg,pdf}
+outputs/**/*.{png,jpg,jpeg,svg,pdf}
 
-# Plot outputs
-*.png
-*.jpg
-*.jpeg
-*.svg
-*.pdf
 
 # ================================
 # Temporary / OS
