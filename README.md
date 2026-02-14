@@ -2,6 +2,8 @@
 
 This project simulates exchange microstructure using a discrete-event engine and a FIFO limit order book. Instead of bar-level backtesting assumptions, it models individual limit/market/cancel events, queue priority, partial fills, and inventory-aware market making.
 
+📄 For a detailed failure analysis and system evolution, see [POST_MORTEM.md](POST_MORTEM.md).
+
 ## What It Models
 
 - Price-time priority (FIFO) at each level
