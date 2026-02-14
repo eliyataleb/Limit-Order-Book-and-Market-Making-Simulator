@@ -1,0 +1,39 @@
+seed: 7
+end_time: 300.0
+base_price: 100.0
+tick_size: 0.01
+mm_update_rate: 4.0
+mm_update_every_k_events: 1
+environment_mode: v1_control
+adverse_horizon: 1.0
+initial_depth_levels: 3
+initial_depth_qty: 20
+
+flow:
+  limit_rate: 25.0
+  market_rate: 12.0
+  cancel_rate: 8.0
+  imbalance: 0.0
+  limit_levels: 4
+  limit_qty_min: 1
+  limit_qty_max: 6
+  market_qty_min: 1
+  market_qty_max: 4
+  marketable_limit_prob: 0.10
+  informed_market_bias: 0.0
+  trend_flip_prob: 0.02
+  p_informed: 0.0
+  informed_qty_mult: 1.8
+  signal_flip_prob: 0.02
+  toxic_move_delay: 0.05
+  toxic_jump_ticks: 1
+  toxic_impact_fraction: 1.0
+  fundamental_rate: 0.0
+  fundamental_jump_ticks: 1
+  slow_adapt_prob: 0.35
+  slow_adapt_max_qty: 4
+
+market_maker:
+  half_spread_ticks: 1
+  quote_qty: 3
+  inventory_skew: 0.002
