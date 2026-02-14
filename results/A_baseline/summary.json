@@ -1,0 +1,20 @@
+{
+  "events": 14382.0,
+  "trades": 10253.0,
+  "flow_imbalance": -0.02002718622564567,
+  "final_mid": 99.81,
+  "final_fundamental": 99.83,
+  "final_fundamental_gap": 0.01999999999999602,
+  "final_inventory": 0.0,
+  "final_realized_pnl": 20.059999999998325,
+  "final_unrealized_pnl": 0.0,
+  "final_pnl": 20.059999999998325,
+  "final_mtm_pnl": 20.059999999998766,
+  "avg_spread": 0.019944359438029406,
+  "markout_horizon": 1.0,
+  "mm_fills": 2632.0,
+  "avg_markout": -3.2030752733851795e-05,
+  "avg_adverse_move": 3.2030752733851795e-05,
+  "adverse_fill_ratio": 0.4623860182370821,
+  "adverse_selection_metric": -3.2030752733851795e-05
+}
