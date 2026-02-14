@@ -17,21 +17,19 @@ This project simulates exchange microstructure using a discrete-event engine and
 ## Repository Layout
 
 ```text
-lob_sim/
-  README.md
-  requirements.txt
-  configs/
-    base.yaml
-  src/
-    lob/
-    sim/
-    strategies/
-    analytics/
-  scripts/
-    run_sim.py
-    run_experiments.py
-  verification_tests/
-  outputs/
+README.md
+requirements.txt
+configs/
+  base.yaml
+src/
+  lob/
+  sim/
+  strategies/
+  analytics/
+scripts/
+  run_sim.py
+  run_experiments.py
+results/
 ```
 
 ## Quick Start
